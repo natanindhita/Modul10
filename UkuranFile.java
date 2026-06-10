@@ -6,7 +6,7 @@ public class UkuranFile {
 
         if (file.exists()) {
             long bytes = file.length();
-            if (bytes < 1_048_576) { // < 1 MB
+            if (bytes < 1_048_576) {
                 double kb = bytes / 1024.0;
                 System.out.printf("Ukuran file: %.2f KB%n", kb);
             } else {
