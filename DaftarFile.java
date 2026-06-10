@@ -2,7 +2,7 @@ import java.io.File;
 
 public class DaftarFile {
     public static void main(String[] args) {
-        var direktori = new File("C:/Data/Java"); // ganti path sesuai kebutuhan
+        var direktori = new File("C:/Data/Java");
 
         if (direktori.exists() && direktori.isDirectory()) {
             File[] daftarFile = direktori.listFiles();
